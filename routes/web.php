@@ -18,5 +18,5 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', 'StaticPagesController@home');
-Roete::get('/help', 'StaticPagesController@help');
+Route::get('/help', 'StaticPagesController@help');
 Route::get('/about', 'StaticPagesController@about');
