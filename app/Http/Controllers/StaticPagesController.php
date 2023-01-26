@@ -7,8 +7,7 @@ use Illuminate\Http\Request;
 class StaticPagesController extends Controller
 {
     //
-<<<<<<< HEAD
-=======
+
     public function home()
     {
         return view('static_pages/home');
@@ -23,5 +22,4 @@ class StaticPagesController extends Controller
     {
         return view('static_pages/about');
     }
->>>>>>> static-pages
 }
